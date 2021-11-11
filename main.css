@@ -1,0 +1,13 @@
+.mHeader {
+    text-align: center;
+    background: blue;
+    padding: 20px;
+}
+.leftSide {
+    display: flex;
+    margin: 3em;
+    background: chocolate;
+}
+.card {
+    flex-wrap: wrap;
+}
