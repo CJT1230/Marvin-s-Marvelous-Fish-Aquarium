@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
+<head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="main.css">
+     <link rel="stylesheet" href="main.css">
     <title>Martin's Marvelous Fish Aquarium</title>
    </head>
    <body>
@@ -14,21 +14,49 @@
         </div>
      </header>
      <main>
-        <div class="leftSide">
+        <div class="content content__left">
             <article class="fishList">
                 <section class="fish card">
                     <div>
-                        <img class="fish__pic" src="data:image/jpeg;base64,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">
+                        <img class="fish__pic" src="https://cdn.mos.cms.futurecdn.net/RY2EpSo74hvYXyAVpTN2Gg-970-80.jpg.webp" alt="">
                     </div>
                     <div class="fish__name">Terminator</div>
                     <div class="fish__species">Betta</div>
-                    <div class="fish__length">3</div>
-                    <div class="fish__location">Denmark</div>
+                    <div class="fish__length">3in</div>
+                    <div class="fish__location">Deep Ocean</div>
                     <div class="fish__diet">Other Fish</div>
                     </div>
                 </section>
-                <section>
-                </section> 
+                <section class="fish card">
+                    <div>
+                        <img class="fish__pic" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Opisthoteuthis_californiana.jpg/330px-Opisthoteuthis_californiana.jpg" alt="">
+                    </div>
+                    <div class="fish__name">Lil' Octo</div>
+                    <div class="fish__species">Umbrella Octopus</div>
+                    <div class="fish__length">7in</div>
+                    <div class="fish__location">God Knows Where</div>
+                    <div class="fish__diet">Cute Food</div>
+                </section>
+                <section class="fish card">
+                    <div>
+                        <img class="fish__pic" src="http://www.chinadaily.com.cn/world/images/attachement/jpg/site1/20080103/00096bb163c308e6d1312e.jpg" alt="">
+                    </div>
+                    <div class="fish__name">Puffy Boy</div>
+                    <div class="fish__species">Pufferfish</div>
+                    <div class="fish__length">2in</div>
+                    <div class="fish__location">Ocean Waters</div>
+                    <div class="fish__diet">Air</div>
+                </section>
+                <section class="fish card">
+                    <div>
+                        <img class="fish__pic" src="https://cdn.shopify.com/s/files/1/1078/7012/products/zebra_small.jpg?v=1584111413" alt="">
+                    </div>
+                    <div class="fish__name">Marly</div>
+                    <div class="fish__species">Zebra Pleco</div>
+                    <div class="fish__length">3in</div>
+                    <div class="fish__location">Brazil</div>
+                    <div class="fish__diet">Frozen or Live Meat</div>
+                </section>
             </article>
         </div>
      </main>

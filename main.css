@@ -1,13 +1,38 @@
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
 .mHeader {
     text-align: center;
     background: blue;
     padding: 20px;
 }
-.leftSide {
-    display: flex;
-    margin: 3em;
-    background: chocolate;
+.fish__pic {
+    width: 150px;
+    height: 150px;
 }
 .card {
     flex-wrap: wrap;
+    padding: 50px;
+    background: blueviolet;
+}
+.fish__name {
+    background: coral;
+    padding: 10px;
+}
+.fish__species {
+    background: cornflowerblue;
+    padding: 10px;
+}
+.fish__length {
+    background: crimson;
+    padding: 10px;
+}
+.fish__location {
+    background: darkcyan;
+    padding: 10px;
+}
+.fish__diet {
+    background: darkgreen;
+    padding: 10px;
 }
